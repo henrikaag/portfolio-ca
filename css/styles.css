@@ -64,11 +64,12 @@
 
 /* SECTION 1 (Project 1)*/
 .sec-1 {
-    height: 1000px;
+    height: 900px;
 }
 
 .project-header {
     text-align: center;
+    padding-top: 20px;
 }
 
 .project-img-1 {
@@ -187,6 +188,14 @@ a {
 
     .portrait-img{
         width: 30%;
-    
+    }
+
+    .project-info {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .project-nmbr {
+        font-size: 32em;
     }
   }
