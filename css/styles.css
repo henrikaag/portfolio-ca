@@ -110,6 +110,10 @@
     text-align: center
 }
 
+.abt-header {
+    text-align: center;
+}
+
 .abt-text {
     font-size: 1.2em;
 }
@@ -151,23 +155,36 @@
 }
 
 .socials {
+    text-decoration: none;
     display:flex;
     justify-content: center;
     justify-content: space-around;
 }
 
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
 @media only screen and (min-width: 768px) {
 
     .arrow {
-        box-sizing: border-box;
         height: 2vw;
         width: 2vw;
-        border-style: solid;
-        border-color: white;
-        border-width: 0px 1px 1px 0px;
-        transform: rotate(45deg);
-        transition: border-width 150ms ease-in-out;
     }
+
+    .about-sec {
+        display: flex;
+        justify-content: space-evenly
+    }
+
+    .abt-text {
+        text-align: left;
+        width: 500px;
+        font-size: 1.5em;
+    } 
+
     .portrait-img{
         width: 30%;
     
