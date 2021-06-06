@@ -3,11 +3,15 @@
     scroll-behavior: smooth;
 }
 
+.navbar {
+    background: linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(16,17,40,1) 100%);
+}
+
 /* MAIN */
 
 .main {
     height: 650px;
-    background-color:#212529;
+    background: linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(16,17,40,1) 100%);
     color: white;
 }
 
